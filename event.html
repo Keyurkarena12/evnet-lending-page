@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="event.css">
+    <title>Event Management</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/chai aur code practices/eventmanagement task/images/logof.png" alt="Logo">
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li class="dropdown-parent">
+                    <a href="#Services">Services <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Wedding Planning</a></li>
+                        <li><a href="#">Corporate Event</a></li>
+                        <li><a href="#">Birthday Party</a></li>
+                        <li><a href="#">Kanku Pagla</a></li>
+                        <li><a href="#">Baby Shower</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Account">Account</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Welcome to Event Management</h1>
+            <p class="hero-description">
+                Create unforgettable moments with our professional event planning services.
+                From intimate gatherings to grand celebrations, we make every event special.
+            </p>
+            <button class="btn">Event Details</button>
+            <!-- Event Details Section -->
+            <div id="event-details" style="display: none; margin-top: 20px; color: black;">
+                <h2>Event Details</h2>
+                <p>Date: May 15, 2025</p>
+                <p>Location: Grand Palace Hall, City Center</p>
+                <p>Description: A night full of celebration, music, and memories.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="About" class="about-page">
+        <div class="section About-section">
+            <h1 class="page-title">About Us</h1>
+            <p class="About-discription">
+                At EventMaster, we transform ordinary occasions into extraordinary experiences.
+                With over a decade of expertise in event planning and management, we have built
+                a reputation for creating memorable moments that exceed expectations.
+            </p>
+        </div>
+
+
+        <div class="section team-section">
+            <div class="team-heading">
+                <h2 class="section-title">Meet Our Team</h2>
+                <p class="section-description">
+                    Our experienced professionals are passionate about creating perfect events.
+                </p>
+            </div>
+
+            <div class="team-grid">
+                <!-- Repeat for each team member -->
+                <!-- Example (replace with dynamic rendering if needed) -->
+                <div class="team-card">
+                    <img src="/chai aur code practices/eventmanagement task/images/membar1.avif" alt="Team Member"
+                        class="team-image" />
+                    <div class="team-info">
+                        <h3 class="team-name">John Doe</h3>
+                        <p class="team-role">Event Coordinator</p>
+                        <p class="team-description">Expert in logistics and coordination with a passion for details.</p>
+                        <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="linkedin-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="/chai aur code practices/eventmanagement task/images/member2.avif" alt="Team Member"
+                        class="team-image" />
+                    <div class="team-info">
+                        <h3 class="team-name">John Doe</h3>
+                        <p class="team-role">Event Coordinator</p>
+                        <p class="team-description">Expert in logistics and coordination with a passion for details.</p>
+                        <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="linkedin-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="/chai aur code practices/eventmanagement task/images/member3.avif" alt="Team Member"
+                        class="team-image" />
+                    <div class="team-info">
+                        <h3 class="team-name">John Doe</h3>
+                        <p class="team-role">Event Coordinator</p>
+                        <p class="team-description">Expert in logistics and coordination with a passion for details.</p>
+                        <a href="https://www.linkedin.com/in/yourusername" target="_blank" class="linkedin-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 class="cta-title">Ready to Plan Your Event?</h2>
+            <a href="#Contact" class="btn-primary">Get in Touch</a>
+        </div>
+    </div>
+
+
+    <div id="Services" class="services-page">
+        <div class="services-header">
+            <h1 class="services-title">Our Services</h1>
+            <p class="services-description">
+                We offer a variety of event management services tailored to your needs. Whether it's a wedding,
+                corporate event, or private party, we’ve got you covered.
+            </p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Service Card -->
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/wedding.webp" alt="Wedding Planning"
+                    class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Wedding Planning</h3>
+                    <p class="service-info">Make your special day unforgettable with our full wedding coordination
+                        services.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/corporate.jpg" alt="Corporate Events"
+                    class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Corporate Events</h3>
+                    <p class="service-info">Professional event planning for meetings, conferences, and product launches.
+                    </p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/birthday.webp" alt="Birthday Parties"
+                    class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Birthday Parties</h3>
+                    <p class="service-info">Celebrate in style with our customized birthday planning services for all
+                        ages.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/kankupagla.jpeg" alt="Kanku pagla"
+                    class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Kanku pagla</h3>
+                    <p class="service-info">Celebrate in style with our customized birthday planning services for all
+                        ages.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/fresharparty.jpg" alt="Fresher Party"
+                    class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Fresher Party</h3>
+                    <p class="service-info">Celebrate in style with our customized fresher party planning services for
+                        all ages.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/101124246.webp" alt="Gujrati Dayro"
+                    class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Gujrati Dayro</h3>
+                    <p class="service-info">Celebrate in style with our customized fresher party planning services for
+                        all ages.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/baby-shower-decoration-items-kit-for-home-baby-shower-decoration-original-imah5yynugys55m8.webp"
+                    alt="Baby Shower" class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Baby Shower</h3>
+                    <p class="service-info">Celebrate in style with our customized baby shower planning services for all
+                        ages.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="/chai aur code practices/eventmanagement task/images/127861-engagement-wishes-images-happytextwishes.jpeg"
+                    alt="Engagement Planning" class="service-image">
+                <div class="service-content">
+                    <h3 class="service-name">Engagement Planning</h3>
+                    <p class="service-info">Celebrate in style with our customized engagement planning services for all
+                        ages.</p>
+                    <a href="/booking" class="book-btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Contact" class="contact-page">
+        <div class="contact-header">
+            <h1 class="contact-title">Contact Us</h1>
+            <p class="contact-description">
+                Have questions or want to plan an event? Send us a message or visit us!
+            </p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <!-- Map -->
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0863690152375!2d-122.41941548468168!3d37.77492927975943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b0b3ed7ff%3A0x18e5074f255b1f47!2sSan%20Francisco%20City%20Hall!5e0!3m2!1sen!2sus!4v1617633809486!5m2!1sen!2sus"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="/chai aur code practices/eventjs_pra.js"></script>
+</body>
+
+</html>
